@@ -1,7 +1,7 @@
 <footer class="w-full mt-20 bg-gray-800">
     <div class="container flex justify-center pt-12 pb-10 mx-auto space-x-12 text-sm text-gray-400 font-base">
         <div>
-            <img src="/assets/img/logo-creareception-black.png" alt="Logo CreaReception">
+            <img src="{{ $page->baseUrl }}/assets/img/logo-creareception-black.png" alt="Logo CreaReception">
         </div>
         <div class="flex flex-col">
             <div class="flex pb-6 space-x-12 border-b border-gray-600">

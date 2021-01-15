@@ -9,7 +9,7 @@
         </h1>
     </div>
     <div class="relative z-0 w-full text-anis h-698">
-        <img class="min-w-full min-h-349" src="{{ $page->baseUrl }}{{ $page->title_img }}"" alt="">
+        <img class="min-w-full min-h-349" src="{{ $page->baseUrl }}{{ $page->title_img }}" alt="">
     </div>
 </div>
 
