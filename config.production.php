@@ -2,4 +2,5 @@
 
 return [
     'production' => true,
+    'pretty' => false,
 ];
