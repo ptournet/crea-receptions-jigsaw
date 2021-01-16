@@ -29,7 +29,7 @@ use_fancybox: true
             </a>
         </div>
         <div class="relative overflow-hidden h-300 w-300">
-            <img class="h-32 w-300" src="{{ $page->baseUrl }}/assets/img/uploads/LOGO-REFERENCE-300x126.png" alt="__LOGO REFERENCE">
+            <img class="h-32 w-300" src="{{ $page->baseUrl }}/assets/uploads/LOGO-REFERENCE-300x126.png" alt="__LOGO REFERENCE">
         </div>
         <div class="relative overflow-hidden h-300 w-300"></div>
         <div class="relative overflow-hidden h-300 w-300">
