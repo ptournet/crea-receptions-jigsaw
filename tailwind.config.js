@@ -7,6 +7,8 @@ module.exports = {
     theme: {
         extend: {
             height: {
+                "100": "100px",
+                "300": "300px",
                 "349": "349px",
                 "514": "514px",
                 "698": "698px"
@@ -15,14 +17,19 @@ module.exports = {
                 "80px": "80px",
                 "-80px": "-80px"
             },
+            margin: {
+                "-80px": "-80px"
+            },
             maxWidth: {
                 "829": "829px",
+                "929": "929px",
                 "1166": "1166px"
             },
             minHeight: {
                 "349": "349px"
             },
             width: {
+                "300": "300px",
                 "544": "544px"
             }
         },
@@ -62,8 +69,10 @@ module.exports = {
             "7xl": [
                 "76px", "0.8em"
             ],
-            "9xl": ["95px"],
-            "16xl": ["160px"]
+            "9xl": [
+                "95px", "1em"
+            ],
+            "16xl": ["160px", "214px"]
         }
     },
     variants: {},
