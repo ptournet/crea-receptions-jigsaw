@@ -25,7 +25,7 @@
             <div class="pt-8 text-xs text-center text-gray-600">
                 © 2016 CRÉA RÉCEPTIONS Traîteur &amp; Patissier
                 <span class="tiret">-</span>
-                <a href="{{ $page->baseUrl }}/pages/mentions-legales.html">Mentions Légales</a>
+                <a href="{{ $page->baseUrl }}/mentions-legales/">Mentions Légales</a>
             </div>
         </div>
     </div>
