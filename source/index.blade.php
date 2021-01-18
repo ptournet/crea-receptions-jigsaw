@@ -32,7 +32,7 @@ sliders: [
 @foreach ($page->sliders as $slider)
         <div class="absolute min-w-full carousel-cell h-683">
             <div class="absolute left-0 right-0 z-10 mx-auto my-0 text-center text-white w-544 title h-514 top-80px">
-                <h1 class="font-sans text-7xl" style="margin: revert;">
+                <h1 class="font-sans text-7xl pt-100" style="margin: revert;">
                     {{ $slider->title1 }}
                     <span class="block font-script text-9xl text-anis">{{ $slider->title2 }}</span>
                 </h1>
@@ -46,8 +46,17 @@ sliders: [
     </div>
 </div>
 <div id="container" class="relative mx-auto max-w-1166">
-    <div></div>
-    <div></div>
-    <div></div>
+    <div class="absolute z-20 w-full top-4 grey-background h-1/2"></div>
+    <div class="absolute top-auto z-20 w-1/2 grey-background -bottom-10 h-1/3"></div>
+    <div class="relative mx-auto max-w-929">
+        <div class="relative z-50 mt-80px">
+            <div class="w-full overflow-hidden">
+                <img src="{{ $page->baseUrl }}\assets\img\content\FB_IMG_15166378787131.jpg" alt="">
+            <\div>
+            <div></div>
+        </div>
+        <div></div>
+        <div></div>
+    </div>
 </div>
 @endsection

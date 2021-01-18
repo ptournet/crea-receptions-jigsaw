@@ -19,6 +19,7 @@ module.exports = {
                 "-80px": "-80px"
             },
             margin: {
+                "80px": "80px",
                 "-80px": "-80px"
             },
             maxWidth: {
@@ -28,6 +29,9 @@ module.exports = {
             },
             minHeight: {
                 "349": "349px"
+            },
+            spacing: {
+                "100": "100px"
             },
             width: {
                 "300": "300px",
