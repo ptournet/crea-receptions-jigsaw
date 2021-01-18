@@ -16,6 +16,14 @@
         background-image: url('/assets/img/contour.png')
     }
 
+    .green-title {
+        background-image: url('/assets/img/contour-green.png')
+    }
+
+    .green-bloc {
+        background-image: url('/assets/img/bg-model-1.png')
+    }
+
     .grey-background {
         position: absolute;
         z-index: 20;

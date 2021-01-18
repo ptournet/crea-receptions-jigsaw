@@ -34,12 +34,12 @@ sliders: [
             <div class="absolute left-0 right-0 z-10 mx-auto my-0 text-center text-white w-544 title h-514 top-80px">
                 <h1 class="font-sans text-7xl pt-100" style="margin: revert;">
                     {{ $slider->title1 }}
-                    <span class="block font-script text-9xl text-anis">{{ $slider->title2 }}</span>
+                    <span class="block font-script text-9xl leading-inherit text-anis">{{ $slider->title2 }}</span>
                 </h1>
             </div>
             <div class="h-698">
                 <div class="absolute w-full h-698"></div>
-                <img src="{{ $page->baseUrl}}{{ $slider->title_img }}"/>
+                <img class="min-w-full left-1/2" src="{{ $page->baseUrl}}{{ $slider->title_img }}"/>
             </div>
         </div>
 @endforeach
@@ -51,9 +51,16 @@ sliders: [
     <div class="relative mx-auto max-w-929">
         <div class="relative z-50 mt-80px">
             <div class="w-full overflow-hidden">
-                <img src="{{ $page->baseUrl }}\assets\img\content\FB_IMG_15166378787131.jpg" alt="">
-            <\div>
-            <div></div>
+                <img class="max-w-none" src="{{ $page->baseUrl }}\assets\img\content\FB_IMG_15166378787131.jpg" alt="">
+            </div>
+            <div class="absolute pt-4 pb-12 pr-10 -top-60px -left-30px w-300 h-480 green-bloc pl-9">
+                <div class="relative mx-auto text-3xl text-center text-white pt-14 w-213 h-201 green-title">
+                    <p class="m-0 font-sans">qui sommes</p>
+                    <p class="mt-0 font-script">nous ?</p>
+                    <div class="absolute h-1.4 bg-gray-900 w-15 top-95px -right-80px"></div>
+                </div>
+                <p class="-mt-5 text-sm text-center text-gray-900">Créa-Réceptions, traiteur en Bouches du Rhône basé à Roquevaire, organisateur de réceptions depuis 2008, vous propose une cuisine de goût et de qualité qui valorise les produits régionaux. C’est aussi une équipe de professionnels et de partenaires de choix à l’écoute de sa clientèle afin de garantir un évènement à la hauteur de ses attentes.</p>
+            </div>
         </div>
         <div></div>
         <div></div>
