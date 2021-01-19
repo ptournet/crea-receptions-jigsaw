@@ -8,7 +8,7 @@ use_fancybox: true
 @extends('_layouts.page')
 
 @section('pagecontent')
-<div class="relative mx-auto mb-40 max-w-929">
+<div class="relative mx-auto mb-20 max-w-929">
     <div class="z-20 w-4/5 pb-10 grey-background top-24 h-480 -right-24"></div>
     <div class="relative z-50 mt-80px">
         <div class="w-full overflow-hidden">
@@ -44,7 +44,80 @@ use_fancybox: true
         </div>
     </div>
 </div>
-<div></div>
-<div></div>
-<div></div>
+<div class="relative mx-auto mb-20 max-w-929">
+    <div class="z-20 w-4/5 pb-10 grey-background top-24 h-480 -left-24"></div>
+    <div class="relative z-50 mt-80px">
+        <div class="w-full overflow-hidden">
+            <img class="max-w-none" src="{{ $page->baseUrl }}/assets/img/content/5_IMG_960x386.png" alt="">
+            <div class="relative right-0 float-left pb-6 text-sm leading-6 w-55prct font-base mt-7">
+                Envie de vous faire plaisir tout en restant chez vous, comme au restaurant passez votre commande à notre chef, entièrement sur mesure, il jouera de sa créativité pour ravir vos papilles et celles de vos convives.
+                <div class="flex space-x-8 text-base mt-18">
+                    <div class="py-1 bg-gray-800 px-7">
+                        <a href="{{ $page->baseUrl }}/assets/uploads/2019_CATALOGUE_42x21.pdf">
+                            <div class="font-sans font-bold text-white">
+                                télécharger le
+                                <span class="underline font-script text-anis">catalogue</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="py-1 bg-gray-800 px-7">
+                        <a href="{{ $page->baseUrl }}/contact/">
+                            <div class="font-sans font-bold text-white">
+                                réaliser un
+                                <span class="underline font-script text-anis">devis</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="absolute bottom-24 green-bloc3 w-300 h-300 right-16 pt-45px"> <!--</div> pt-4 pb-12 pr-10 -top-60px -left-30px w-300 h-480 green-bloc pl-9">-->
+            <div class="relative mx-auto text-3xl text-center text-white w-213 h-201 green-title pt-55px">
+                <p class="m-0 font-sans">chef</p>
+                <p class="mt-0 font-script">à domicile</p>
+                <div class="absolute h-1.4 bg-gray-900 w-15 top-95px -left-80px"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="relative mx-auto mb-20 max-w-929">
+    <div class="z-20 w-4/5 pb-10 grey-background top-24 h-480 -right-24"></div>
+    <div class="relative z-50 mt-80px">
+        <div class="w-full overflow-hidden">
+            <img class="max-w-none" src="{{ $page->baseUrl }}/assets/img/content/4_IMG_960x386.png" alt="">
+            <div class="relative right-0 float-right pb-6 text-sm leading-6 w-55prct font-base mt-7">
+                De plus en plus en vogue, le brunch est le moment idéal pour se retrouver entre amis ou en famille.
+                <div class="flex space-x-8 text-base mt-18">
+                    <div class="py-1 bg-gray-800 px-7">
+                        <a href="{{ $page->baseUrl }}/assets/uploads/2019_CATALOGUE_42x21.pdf">
+                            <div class="font-sans font-bold text-white">
+                                télécharger le
+                                <span class="underline font-script text-anis">catalogue</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="py-1 bg-gray-800 px-7">
+                        <a href="{{ $page->baseUrl }}/contact/">
+                            <div class="font-sans font-bold text-white">
+                                réaliser un
+                                <span class="underline font-script text-anis">devis</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="absolute bottom-24 green-bloc3 w-300 h-300 left-16 pt-45px"> <!--</div> pt-4 pb-12 pr-10 -top-60px -left-30px w-300 h-480 green-bloc pl-9">-->
+            <div class="relative mx-auto text-3xl text-center text-white w-213 h-201 green-title pt-55px">
+                <p class="m-0 font-sans">brunch</p>
+                <p class="mt-0 font-script"></p>
+                <div class="absolute h-1.4 bg-gray-900 w-15 top-95px -right-80px"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div>
+    <div></div>
+    <div></div>
+</div>
 @endsection
