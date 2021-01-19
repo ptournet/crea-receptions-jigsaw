@@ -24,8 +24,12 @@
         background-image: url('/assets/img/contour-green.png')
     }
 
-    .green-bloc {
+    .green-bloc1 {
         background-image: url('/assets/img/bg-model-1.png')
+    }
+
+    .green-bloc3 {
+        background-image: url('/assets/img/bg-model-3.png')
     }
 
     .grey-background {

@@ -1,6 +1,20 @@
 @extends('_layouts.master')
 
 @section('content')
+@if($page->use_fancybox)
+<script type="text/javascript">
+    $(document).ready(function() {
+        $(".fancybox").fancybox({
+            helpers: {
+                title: {
+                    type: 'over'
+                }
+            }
+        });
+    });
+</script>
+@endif
+
 <div class="relative w-full overflow-hidden h-349">
     <div class="absolute left-0 right-0 z-10 mx-auto my-0 text-center text-white w-544 title h-514 top-80px">
         <h1 class="font-sans text-7xl" style="margin: revert;">

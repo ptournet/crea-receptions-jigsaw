@@ -3,8 +3,48 @@ title: Prestations particuliers - Créa Réceptions – Traiteur événementiel
 title1: prestations
 title2: particuliers
 title_img: /assets/img/main-particuliers.png
+use_fancybox: true
 ---
 @extends('_layouts.page')
 
 @section('pagecontent')
+<div class="relative mx-auto mb-40 max-w-929">
+    <div class="z-20 w-4/5 pb-10 grey-background top-24 h-480 -right-24"></div>
+    <div class="relative z-50 mt-80px">
+        <div class="w-full overflow-hidden">
+            <img class="max-w-none" src="{{ $page->baseUrl }}/assets/img/content/1_IMG_960x386.png" alt="">
+            <div class="relative right-0 float-right pb-6 text-sm leading-6 w-55prct font-base mt-7">
+                Un évènement unique qui ne ressemble qu’à vous, notre équipe vous accompagnera à chaque étape de votre réception pour créer ensemble vos meilleurs souvenirs.
+                <div class="flex space-x-8 text-base mt-18">
+                    <div class="py-1 bg-gray-800 px-7">
+                        <a href="{{ $page->baseUrl }}/assets/uploads/2019_CATALOGUE_42x21.pdf">
+                            <div class="font-sans font-bold text-white">
+                                télécharger le
+                                <span class="underline font-script text-anis">catalogue</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="py-1 bg-gray-800 px-7">
+                        <a href="{{ $page->baseUrl }}/contact/">
+                            <div class="font-sans font-bold text-white">
+                                réaliser un
+                                <span class="underline font-script text-anis">devis</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="absolute bottom-24 green-bloc3 w-300 h-300 left-16 pt-45px"> <!--</div> pt-4 pb-12 pr-10 -top-60px -left-30px w-300 h-480 green-bloc pl-9">-->
+            <div class="relative mx-auto text-3xl text-center text-white w-213 h-201 green-title pt-55px">
+                <p class="m-0 font-sans">mariage</p>
+                <p class="mt-0 font-script">baptême, anniversaire...</p>
+                <div class="absolute h-1.4 bg-gray-900 w-15 top-95px -right-80px"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div></div>
+<div></div>
+<div></div>
 @endsection

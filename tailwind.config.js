@@ -12,6 +12,7 @@ module.exports = {
                 "201": "201px",
                 "300": "300px",
                 "349": "349px",
+                "432": "432px",
                 "480": "480px",
                 "514": "514px",
                 "633": "633px",
@@ -29,6 +30,7 @@ module.exports = {
                 inherit: "inherit"
             },
             margin: {
+                "18": "4.5rem",
                 "-50px": "-50px",
                 "80px": "80px",
                 "-80px": "-80px"
@@ -43,13 +45,15 @@ module.exports = {
             },
             padding: {
                 "14prct": "14%",
-                "55": "55px"
+                "45px": "45px",
+                "55px": "55px"
             },
             spacing: {
                 "100": "100px"
             },
             width: {
                 "15": "60px",
+                "55prct": "55%",
                 "140": "140px",
                 "213": "213px",
                 "300": "300px",
