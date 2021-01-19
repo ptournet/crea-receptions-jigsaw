@@ -14,6 +14,7 @@ module.exports = {
                 "349": "349px",
                 "480": "480px",
                 "514": "514px",
+                "633": "633px",
                 "683": "683px",
                 "698": "698px"
             },
@@ -28,6 +29,7 @@ module.exports = {
                 inherit: "inherit"
             },
             margin: {
+                "-50px": "-50px",
                 "80px": "80px",
                 "-80px": "-80px"
             },
@@ -39,11 +41,16 @@ module.exports = {
             minHeight: {
                 "349": "349px"
             },
+            padding: {
+                "14prct": "14%",
+                "55": "55px"
+            },
             spacing: {
                 "100": "100px"
             },
             width: {
                 "15": "60px",
+                "140": "140px",
                 "213": "213px",
                 "300": "300px",
                 "544": "544px"

@@ -16,6 +16,10 @@
         background-image: url('/assets/img/contour.png')
     }
 
+    .grey-title {
+        background-image: url('/assets/img/contour-grey.png')
+    }
+
     .green-title {
         background-image: url('/assets/img/contour-green.png')
     }

@@ -46,8 +46,8 @@ sliders: [
     </div>
 </div>
 <div id="container" class="relative mx-auto max-w-1166">
-    <div class="absolute z-20 w-full top-4 grey-background h-1/2"></div>
-    <div class="absolute top-auto z-20 w-1/2 grey-background -bottom-10 h-1/3"></div>
+    <div class="absolute z-20 w-full top-4 grey-background h-633"></div>
+    <div class="absolute top-auto z-20 w-1/2 right-2 grey-background -bottom-16 h-349"></div>
     <div class="relative mx-auto max-w-929">
         <div class="relative z-50 mt-80px">
             <div class="w-full overflow-hidden">
@@ -62,8 +62,38 @@ sliders: [
                 <p class="-mt-5 text-sm text-center text-gray-900">Créa-Réceptions, traiteur en Bouches du Rhône basé à Roquevaire, organisateur de réceptions depuis 2008, vous propose une cuisine de goût et de qualité qui valorise les produits régionaux. C’est aussi une équipe de professionnels et de partenaires de choix à l’écoute de sa clientèle afin de garantir un évènement à la hauteur de ses attentes.</p>
             </div>
         </div>
-        <div></div>
-        <div></div>
+        <div class="flex">
+            <div class="relative z-50 w-1/2 mx-auto my-5 mr-4 text-center text-gray-800">
+                <div class="mx-auto text-3xl grey-title w-213 h-201 pt-55">
+                    <p class="font-sans">évènements</p>
+                    <p class="mt-0 font-script text-anis">particuliers</p>
+                </div>
+                <div class="relative pt-2 pb-3 text-sm font-base px-14prct -mt-50px">
+                    <p class="pt-3 pb-4 text-center">Pour un mariage, un anniversaire, de 20 à 250 personnes, recevez vos invités en toute sérénité. Nous saurons nous adapter selon vos exigences et votre budget.</p>
+                    <a href="{{ $page->baseUrl }}/prestations-particuliers/">
+                        <div class="absolute left-0 right-0 px-4 py-2 mx-auto font-sans text-white -bottom-5 bg-anis w-140">
+                            en savoir <span class="font-bold text-gray-800 underline font-script">plus</span>
+                        </div>
+                    </a>
+                </div>
+                <img src="{{ $page->baseUrl }}/assets/img/content/2_IMG_456x280.png" alt="">
+            </div>
+            <div class="relative z-50 w-1/2 mx-auto my-5 mr-4 text-center text-gray-800">
+                <div class="mx-auto text-3xl grey-title w-213 h-201 pt-55">
+                    <p class="font-sans">évènements</p>
+                    <p class="mt-0 font-script text-anis">professionnels</p>
+                </div>
+                <div class="relative pt-2 pb-3 text-sm font-base px-14prct -mt-50px">
+                    <p class="pt-3 pb-4 text-center">Pour un séminaire, une inauguration ou encore une soirée de gala, nous vous apportons des solutions « clef en main », petit déjeuner, cocktail, plateaux repas.</p>
+                    <a href="{{ $page->baseUrl }}/prestations-professionnels/">
+                        <div class="absolute left-0 right-0 px-4 py-2 mx-auto font-sans text-white -bottom-5 bg-anis w-140">
+                            en savoir <span class="font-bold text-gray-800 underline font-script">plus</span>
+                        </div>
+                    </a>
+                </div>
+                <img src="{{ $page->baseUrl }}/assets/img/content/1_IMG_456x280.png" alt="">
+            </div>
+        </div>
     </div>
 </div>
 @endsection
