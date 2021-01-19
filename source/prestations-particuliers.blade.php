@@ -119,7 +119,7 @@ use_fancybox: true
 <div class="relative mx-auto mb-36 max-w-929">
     <div class="relative z-50 flex flex-wrap">
         <div class="w-900">
-            <div class="relative mx-auto overflow-hidden h-300 w-300 grey-bloc pt-45px">
+            <div class="relative mx-auto h-300 w-300 grey-bloc pt-45px">
                 <div class="relative mx-auto text-3xl text-center text-gray-900 w-213 h-201 pt-55px grey-title">
                     <p class="m-0 font-sans">dernières</p>
                     <p class="mt-0 font-script">références</p>
