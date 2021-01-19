@@ -116,8 +116,55 @@ use_fancybox: true
         </div>
     </div>
 </div>
-<div>
-    <div></div>
-    <div></div>
+<div class="relative mx-auto mb-36 max-w-929">
+    <div class="relative z-50 flex flex-wrap">
+        <div class="w-900">
+            <div class="relative mx-auto overflow-hidden h-300 w-300 grey-bloc pt-45px">
+                <div class="relative mx-auto text-3xl text-center text-gray-900 w-213 h-201 pt-55px grey-title">
+                    <p class="m-0 font-sans">dernières</p>
+                    <p class="mt-0 font-script">références</p>
+                    <div class="absolute z-50 h-20 w-1.4 bg-anis left-100 -top-24 m-auto"></div>
+                </div>
+            </div>
+        </div>
+        <div class="relative overflow-hidden h-300 w-300">
+            <a class="fancybox" rel="group" href="{{ $page->baseUrl }}/assets/img/content/mariage-50-2.jpg" title="Mariage années 50 - 1">
+                <img class="ref_img" src="{{ $page->baseUrl }}/assets/img/content/mariage-50-2.jpg">
+            </a>
+        </div>
+        <div class="relative overflow-hidden h-300 w-300">
+            <a class="fancybox" rel="group" href="{{ $page->baseUrl }}/assets/img/content/mariage-50-1.jpg" title="Mariage années 50 - 2">
+                <img class="ref_img" src="{{ $page->baseUrl }}/assets/img/content/mariage-50-1.jpg">
+            </a>
+        </div>
+        <div class="relative overflow-hidden h-300 w-300">
+            <a class="fancybox" rel="group" href="{{ $page->baseUrl }}/assets/img/content/mariage-50-4.jpg" title="Mariage années 50 - 3">
+                <img class="ref_img" src="{{ $page->baseUrl }}/assets/img/content/mariage-50-4.jpg">
+            </a>
+        </div>
+        <div class="relative overflow-hidden h-300 w-300">
+            <a class="fancybox" rel="group" href="{{ $page->baseUrl }}/assets/img/content/mariage-50-3.jpg" title="Mariage années 50 - 4">
+                <img class="ref_img" src="{{ $page->baseUrl }}/assets/img/content/mariage-50-3.jpg">
+            </a>
+        </div>
+        <div class="relative overflow-hidden h-300 w-300">
+            <a class="fancybox" rel="group" href="{{ $page->baseUrl }}/assets/img/content/mariage-50-5.jpg" title="Mariage années 50 - 5">
+                <img class="ref_img" src="{{ $page->baseUrl }}/assets/img/content/mariage-50-5.jpg">
+            </a>
+        </div>
+        <div class="relative overflow-hidden h-300 w-300">
+            <a class="fancybox" rel="group" href="{{ $page->baseUrl }}/assets/img/content/buffet-3.jpg" title="Buffet - 1">
+                <img class="ref_img" src="{{ $page->baseUrl }}/assets/img/content/buffet-3.jpg">
+            </a>
+        </div>
+        <div class="w-900">
+            <a href="{{ $page->baseUrl }}/references/">
+                <div class="box-content absolute left-0 right-0 py-2 mx-auto font-sans text-white px-7 -bottom-20 bg-anis w-177">
+                    voir d'autres <span class="font-bold text-gray-800 underline font-script">références</span>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="absolute z-20 h-full pb-24 bg-gray-700 w-200prct -left-1/2 top-36"></div>
 </div>
 @endsection
