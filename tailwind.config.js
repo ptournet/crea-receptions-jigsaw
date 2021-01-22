@@ -8,6 +8,7 @@ module.exports = {
         extend: {
             height: {
                 "1.4": "5px",
+                "93prct": "93%",
                 "100": "100px",
                 "201": "201px",
                 "300": "300px",
@@ -24,21 +25,27 @@ module.exports = {
                 "95px": "95px",
                 "-30px": "-30px",
                 "-60px": "-60px",
-                "-80px": "-80px"
+                "-80px": "-80px",
+                "-120px": "-120px"
             },
             lineHeight: {
                 inherit: "inherit"
             },
             margin: {
                 "18": "4.5rem",
+                "50px": "50px",
                 "-50px": "-50px",
                 "80px": "80px",
                 "-80px": "-80px"
             },
             maxWidth: {
+                "772": "772px",
                 "829": "829px",
                 "929": "929px",
                 "1166": "1166px"
+            },
+            maxHeight: {
+                "463": "463px"
             },
             minHeight: {
                 "349": "349px"
