@@ -35,7 +35,7 @@ use_fancybox: true
                 </div>
             </div>
         </div>
-        <div class="absolute bottom-24 green-bloc3 w-300 h-300 left-16 pt-45px"> <!--</div> pt-4 pb-12 pr-10 -top-60px -left-30px w-300 h-480 green-bloc pl-9">-->
+        <div class="absolute bottom-24 green-bloc3 w-300 h-300 left-16 pt-45px">
             <div class="relative mx-auto text-3xl text-center text-white w-213 h-201 green-title pt-55px">
                 <p class="m-0 font-sans">mariage</p>
                 <p class="mt-0 font-script">baptême, anniversaire...</p>
@@ -71,7 +71,7 @@ use_fancybox: true
                 </div>
             </div>
         </div>
-        <div class="absolute bottom-24 green-bloc3 w-300 h-300 right-16 pt-45px"> <!--</div> pt-4 pb-12 pr-10 -top-60px -left-30px w-300 h-480 green-bloc pl-9">-->
+        <div class="absolute bottom-24 green-bloc3 w-300 h-300 right-16 pt-45px">
             <div class="relative mx-auto text-3xl text-center text-white w-213 h-201 green-title pt-55px">
                 <p class="m-0 font-sans">chef</p>
                 <p class="mt-0 font-script">à domicile</p>
@@ -107,7 +107,7 @@ use_fancybox: true
                 </div>
             </div>
         </div>
-        <div class="absolute bottom-24 green-bloc3 w-300 h-300 left-16 pt-45px"> <!--</div> pt-4 pb-12 pr-10 -top-60px -left-30px w-300 h-480 green-bloc pl-9">-->
+        <div class="absolute bottom-24 green-bloc3 w-300 h-300 left-16 pt-45px">
             <div class="relative mx-auto text-3xl text-center text-white w-213 h-201 green-title pt-55px">
                 <p class="m-0 font-sans">brunch</p>
                 <p class="mt-0 font-script"></p>
